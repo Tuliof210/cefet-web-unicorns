@@ -1,0 +1,112 @@
+#main-page {
+    overflow: auto;
+    /*Aplica o background aos elementos internos que sofrem float*/
+    background-color: white;
+    padding: 0;
+}
+
+.referencia {
+    font-style: italic;
+}
+
+body {
+    max-width: 1024px;
+    background-color: rgb(255, 225, 242);
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabecalho {
+    background-color: #6175F0;
+}
+
+#cabecalho h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 20px 0 0 34px;
+    margin: 0;
+}
+
+#cabecalho h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0 13px 34px;
+    margin: 0;
+}
+
+#verdade img {
+    float: left;
+    max-width: 310px;
+    height: 300px;
+    margin: 0 13px 0 0;
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hoje {
+    margin-top: 20px;
+    margin-right: 25px;
+    padding-bottom: 30px;
+    float: right;
+    width: 405px;
+    text-align: center;
+    background-color: #F8CEF7;
+    border: solid 1px #ff56fb;
+}
+
+#musica {
+    float: left;
+    width: 310px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#musica p,
+#musica h2 {
+    padding-left: 13px;
+}
+
+#musica p:nth-of-type(even) {
+    /*todos os elementos de um tipo, pares*/
+    padding-left: 34px;
+}
+
+.destacado {
+    color: #004A79;
+    background-color: #C4CAF3;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#hoje h2 {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#hoje p {
+    padding: 0 35px;
+}
+
+#hoje img {
+    width: 112px;
+    height: 112px;
+}
